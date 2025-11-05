@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Main-Class: org.springframework.boot.loader.launch.JarLauncher
+Start-Class: cl.patrones.taller.u2.TiendaApplication
+Spring-Boot-Version: 3.4.2
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx
+Spring-Boot-Layers-Index: BOOT-INF/layers.idx
+Build-Jdk-Spec: 17
+Implementation-Title: tienda
+Implementation-Version: 1.0
+
