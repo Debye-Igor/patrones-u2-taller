@@ -9,8 +9,7 @@ import cl.patrones.taller.u2.catalogo.domain.Categoria;
  * Adaptador que convierte objetos Producto (del módulo bodegaje) 
  * en objetos Aviso (para mostrar en la tienda).
  */
-public class ProductoAvisoAdapter {
-    
+public class ProductoAvisoAdapter {   
     /**
      * Convierte un Producto en un Aviso.
      * 
