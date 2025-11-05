@@ -28,7 +28,7 @@ public class ProductoAvisoAdapter {
             .mapToInt(Stock::getCantidad)
             .sum();
         
-        // Calcular el precio (costo + margen de ganancia del 60%)
+        // Calcular el precio (costo + margen de ganancia del 30%)
         Long precio = calcularPrecio(producto.getCosto());
         
         // Crear el aviso con los datos adaptados
@@ -45,7 +45,7 @@ public class ProductoAvisoAdapter {
     }
     
     /**
-     * Calcula el precio de venta aplicando un margen de ganancia del 60% sobre el costo
+     * Calcula el precio de venta aplicando un margen de ganancia del 30% sobre el costo
      * @param costo el costo del producto
      * @return el precio de venta
      */
@@ -53,7 +53,7 @@ public class ProductoAvisoAdapter {
         if (costo == null) {
             return 0L;
         }
-        // Aplicar margen de ganancia del 60%
-        return (long) (costo * 1.6);
+        // Aplicar margen de ganancia del 30% sobr eel costo
+        return (long) (costo * 1.3);
     }
 }

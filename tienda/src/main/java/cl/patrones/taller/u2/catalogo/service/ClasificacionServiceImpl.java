@@ -11,8 +11,6 @@ import cl.patrones.taller.u2.catalogo.repository.ClasificacionRepository;
 
 /**
  * Implementación del servicio de clasificaciones.
- * 
- * @author Taller Patrones de Diseño - Actividad 2
  */
 @Service
 public class ClasificacionServiceImpl implements ClasificacionService {
